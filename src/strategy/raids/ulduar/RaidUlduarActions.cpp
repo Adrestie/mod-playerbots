@@ -1218,7 +1218,7 @@ bool IronAssemblyRuneOfPowerAction::Execute(Event event)
     if (!target || !target->IsAlive())
         return false;
 
-    return MoveAway(target, 10.0f, true);
+    return MoveAway(target, 20.0f, true);
 }
 
 bool KologarnMarkDpsTargetAction::isUseful()
